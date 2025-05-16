@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rotation Pictures Test</title>
+  <!-- Подключаем шрифт -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      margin: 40px;
+    }
+  </style>
+  <!-- jsPsych core и стили -->
+  <script src="https://unpkg.com/jspsych@8.1.0"></script>
+  <link href="https://unpkg.com/jspsych@8.1.0/css/jspsych.css" rel="stylesheet"/>
+  <!-- Preload плагин -->
+  <script src="https://unpkg.com/@jspsych/plugin-preload@2.0.0"></script>
+  <!-- Плагин для показа картинок с кнопками -->
+  <script src="https://unpkg.com/@jspsych/plugin-image-button-response@2.0.0"></script>
+  <!-- Плагин для отображения HTML + кнопок -->
+  <script src="https://unpkg.com/@jspsych/plugin-html-button-response@2.0.0"></script>
+  <!-- Плагин для инструкций -->
+  <script src="https://unpkg.com/@jspsych/plugin-instructions@2.0.0"></script>
+
+  <script src="https://unpkg.com/@jspsych/plugin-image-button-response@2.0.0"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+
+
+</head>
+<body>
+  <h1>Тест на одинаковость/различие изображений</h1>
+  <!-- Контейнер для jsPsych -->
+  <div id="jspsych-target"></div>
+
+  <!-- Ваш основной скрипт -->
+  <script src="rotation_test.js"></script>
+</body>
+</html>
